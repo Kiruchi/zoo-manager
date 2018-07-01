@@ -9,6 +9,8 @@ export interface HelloMessageProps {
 
 class HelloMessage extends React.Component<HelloMessageProps> {
   render() {
+    const toto = 1;
+
     return (
       <Button variant="contained" color="primary">
         Hello {this.props.toto}
